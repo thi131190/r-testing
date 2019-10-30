@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import { shallow } from 'enzyme'
-import Counter from './components/Counter'
+import Counter from './components/Counter';
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
